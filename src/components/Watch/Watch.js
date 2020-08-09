@@ -16,7 +16,7 @@ const Watch = () => {
             </Grid>
             <Grid item md={6} lg={6} xs={12}>
               <div>
-                <img src={require("../../images/watch.png")} className="watch-img"/>
+                <img src={require("../../images/watch.png")} className="watch-img" alt="watch"/>
               </div>
             </Grid>
             
