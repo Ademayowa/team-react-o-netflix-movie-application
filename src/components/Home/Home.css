@@ -1,0 +1,95 @@
+.hero{
+    background-image:linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%), url('../../images/hero.jpg');
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -3;
+    height: 725px;
+    overflow: hidden;   
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    overflow: hidden;
+    width: 134px;
+    height: 44px;
+    padding-top: 0.5em;
+    margin: 20px 56px;
+}
+
+.logo a{
+    padding: 0.5em;
+    margin: 20px 56px;
+    text-decoration: none;   
+}
+
+.logo button{
+    padding: 4px 8px;
+    border: none;
+    background-color: #E50914;
+    color:#ffff;
+    width: 85px;
+    height: 34px;
+    border-radius: 5px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.hero-title{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-title h1{
+    color: #ffff;
+    font-size: 52px;
+    width: 640px;
+    text-align: center;
+    margin: 16px 155px;
+}
+
+.hero-title h2{
+    color: #ffff;
+    width: 640px;
+    height: 62px;
+    font-size: 28px;
+    margin: 10px 155px;
+
+}
+
+.hero-title h3{
+    color: #ffff;
+    width: 640px;
+    height: 62px;
+    font-size: 22px;
+    margin: 10px 155px;
+
+}
+
+.email{
+    width: 500px;
+    height: 60px;
+    border: none;
+    padding: 10px;
+}
+.submit{
+    width: 300px;
+    height: 60px;
+    background-color: #E50914;
+    color: #ffff;
+    border: none;
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
