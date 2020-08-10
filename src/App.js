@@ -4,7 +4,6 @@ import Home from './components/Home/Home';
 import Footer from './components/footer';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AllMovies from './movies/AllMovies';
-import Tv from './components/EnjoyTv/Tv';
 
 const App = () => {
   return (

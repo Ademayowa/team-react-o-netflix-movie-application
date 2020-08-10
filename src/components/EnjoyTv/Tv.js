@@ -14,7 +14,7 @@ const Tv = () => {
         </div>
 
         <div className='col-md-6'>
-          <img src={Img} alt='image' className='img-fluid' />
+          <img src={Img} alt='show' className='img-fluid' />
         </div>
       </div>
     </div>
