@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background-image:linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%), url('../../images/hero.jpg');
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* z-index: -3; */
+    height: 120vh;
+    /* overflow: hidden;    */
+}
+
+.hero-title {
+    color: #ff0000;
+}
+
+.card {
+    background: rgba(10, 8, 8, 0.774);
+    color: #fff;
+    width: 500px;
+    height: 90vh;
+    margin: auto;
+}

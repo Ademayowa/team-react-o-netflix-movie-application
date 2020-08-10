@@ -3,6 +3,7 @@
   --black-color: rgba(0, 0, 0);
   --white-color: #ffffff;
   --red-color: rgba(211, 9, 19);
+  --border-bottom: 8px solid #333;
 }
 
 * {
@@ -60,7 +61,7 @@ a {
   cursor: pointer;
 }
 
-.app {
+.App {
   background-color: #111;
 }
 
@@ -113,4 +114,10 @@ a {
   background-size: cover;
   background-position: center;
   margin-bottom: 30px;
+}
+
+.bg-black {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  border-bottom: var(--border-bottom);
 }

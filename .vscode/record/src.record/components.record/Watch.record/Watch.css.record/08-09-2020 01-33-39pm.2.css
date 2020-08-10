@@ -1,0 +1,10 @@
+.faq-title {
+  font-weight: 800 !important;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 48px !important;
+}
+
+.faq-content {
+  padding: 4rem 1rem;
+}
