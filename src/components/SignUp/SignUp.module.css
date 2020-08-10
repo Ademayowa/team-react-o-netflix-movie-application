@@ -1,0 +1,148 @@
+header {
+    border-bottom: 1px solid #ccc;
+}
+
+.header {
+    font-family: 'Open Sans';
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    font-weight: bold;
+    font-size: 125%;
+}
+
+.logo {
+    height: 3rem;
+}
+
+.main {
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    margin-top: 7rem;
+    font-family: 'Open Sans';
+    height: calc(100vh - 6rem);
+}
+
+.icon1 {
+    color: red;
+    font-size: 300%;
+    margin-bottom: 2rem;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.steps p {
+    margin: 0;
+}
+
+.steps p:last-child {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    text-align: left;
+}
+
+.step p {
+    margin: 0.5rem 0;
+}
+
+.icon2 {
+    color: red;
+    font-size: 175%;
+    margin-right: 1rem;
+}
+
+button {
+    width: 110%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #e50914;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    font-size: 110%;
+    position: relative;
+    right: 5%;
+    margin-top: 2rem;
+}
+
+footer {
+    background-color: #f3f3f3;
+}
+
+.footer {
+    width: 90%;
+    margin: 0 auto;
+    color: #757575;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.footer li {
+   width: 25%;
+   margin: 0.5rem 0;
+   font-size: 80%;
+}
+
+@media only screen and (max-width: 992px) {
+    .main {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        width: 40%;
+    }
+
+    .footer ul {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 50%;
+    }
+
+    .footer ul {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .logo {
+        height: 1.5rem;
+    }
+    
+    .main {
+        width: 70%;
+    }
+
+    .footer ul {
+        width: 90%;
+    }
+}
