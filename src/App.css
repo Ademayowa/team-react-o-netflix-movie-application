@@ -18,12 +18,12 @@ a {
   text-decoration: none;
 }
 
-.row {
+.row_1 {
   margin-left: 30px;
   color: var(--white-color);
 }
 
-.row h2 {
+.row_1 h2 {
   margin-left: 15px;
 }
 

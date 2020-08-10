@@ -2,11 +2,13 @@ import React, { Fragment } from 'react';
 import MovieTypes from '../components/MovieTypes';
 import requests from '../utils/requests';
 import Navbar from '../components/Navbar';
+import Banner from '../components/Banner';
 
 const AllMovies = () => {
   return (
     <Fragment>
       <Navbar />
+      <Banner />
       <MovieTypes
         title='Get In On the Action'
         getUrl={requests.getNetflixOriginals}

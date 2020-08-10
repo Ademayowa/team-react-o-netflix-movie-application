@@ -1,26 +1,22 @@
 import React from 'react';
 import './App.css';
-import MovieTypes from './components/MovieTypes';
-import Navbar from './components/Navbar';
+import Home from './components/Home/Home';
+import Footer from './components/footer';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AllMovies from './movies/AllMovies';
-import Banner from './components/Banner';
-import Landing from './components/Landing';
-// import FAQ from './components/FAQ/Faq';
-// import Watch from './components/Watch/Watch';
-import Login from './components/Login/Login';
+import Tv from './components/EnjoyTv/Tv';
 
 const App = () => {
   return (
-    <div className='App'>
-      <Login />
-      <Landing />
-      {/* <Watch />
-      <FAQ /> */}
-
-      <Navbar />
-      <Banner />
-      <AllMovies />
-    </div>
+    <Router>
+      <div className='App'>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/movies' component={AllMovies} />
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 };
 
