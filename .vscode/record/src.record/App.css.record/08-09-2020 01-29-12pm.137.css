@@ -22,6 +22,6 @@ a {
 
 .bg-black {
   background-color: var(--black-color);
-  color: var(--white-color);
+  color: var(--white)
   border-bottom: var(--border-bottom);
 }
