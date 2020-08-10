@@ -5,9 +5,9 @@
 ## How To Build For Development
 
 ```
-# npm install
+npm install
 
-# After running npm install command in the terminal, then run npm start
+After running npm install command in the terminal, then run npm start
 
 ```
 
@@ -21,8 +21,8 @@ We have lots of challenges in working with the tmdb API. Most of the trailers we
 
 ### Contributors
 
-Sifon Isaac
-Mayowa Adeniyi
-Chimaobi Prince
-talk2mat2
-James Obande
+Sifon Isaac,
+Mayowa Adeniyi,
+Chimaobi Prince,
+talk2mat2,
+James Obande,
