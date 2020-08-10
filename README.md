@@ -2,16 +2,27 @@
 
 > Video streaming application
 
-## Quick Start
+## How To Build For Development
 
-```bash
-## Install client dependencies
+```
+# npm install
 
-cd netflix-movie-app
-npm install
-npm start
+# After running npm install command in the terminal, then run npm start
+
 ```
 
-### Note
+### Requirement Not Covererd
 
-Once you are done coding, push to the develop branch & make a PR
+Search movies component has not been work on
+
+### Issues Faced
+
+We have lots of challenges in working with the tmdb API. Most of the trailers were not playing. We kept getting resource not found when making requests for some movie trailers.
+
+### Contributors
+
+Sifon Isaac
+Mayowa Adeniyi
+Chimaobi Prince
+talk2mat2
+James Obande
