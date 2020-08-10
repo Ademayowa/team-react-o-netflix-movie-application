@@ -5,8 +5,8 @@ import Navbar from './components/Navbar';
 import AllMovies from './movies/AllMovies';
 import Banner from './components/Banner';
 import Landing from './components/Landing';
-import FAQ from './components/FAQ/Faq';
-import Watch from './components/Watch/Watch';
+// import FAQ from './components/FAQ/Faq';
+// import Watch from './components/Watch/Watch';
 import Login from './components/Login/Login';
 
 const App = () => {
@@ -14,8 +14,8 @@ const App = () => {
     <div className='App'>
       <Login />
       <Landing />
-      <Watch />
-      <FAQ />
+      {/* <Watch />
+      <FAQ /> */}
 
       <Navbar />
       <Banner />
