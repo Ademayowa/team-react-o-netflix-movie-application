@@ -6,7 +6,6 @@
 
 ```
 npm install
-
 After running npm install command in the terminal, then run npm start
 
 ```
