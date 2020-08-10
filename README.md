@@ -5,7 +5,7 @@
 ## Quick Start
 
 ```bash
-# Install client dependencies
+## Install client dependencies
 
 cd netflix-movie-app
 npm install
