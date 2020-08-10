@@ -2,19 +2,20 @@ import React from 'react';
 import './Login.css';
 
 import logo from '../../images/logo.svg';
-import facebook from '../../images/facebook.svg';
+import facebook from '../../images/facebook2.svg';
 
 
 const Login = () => {
   return (
     // Header
-    <div className="hero container-fluid">
+    <div className="main hero">
+      <div className="container-fluid">
       <div className="logo px-3 py-2">
         <img id='logo' src={logo} alt="logo" />
       </div>
 
 
-    {/* Sign in Card */}
+      {/* Sign in Card */}
       <div className="card mt-1">
         <div className="signIn p-3">
           <form >
@@ -32,11 +33,23 @@ const Login = () => {
           </div>
           </form>
             <div className="facebook">
-            <img id='facebook' src={facebook} alt="facebook"/><span>
+            <img id='facebook' src={facebook} alt="facebook"/> <span>
               Login with Facebook
             </span>
             <p>New to Netflix?<span><a href="#">Sign up now.</a></span></p>
             <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.<span><a href="#">Learn more.</a></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div className="footer">
+        <div className="btn-group">
+          <button className="btn btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            English
+          </button>
+          <div className="dropdown-menu">
+            English
           </div>
         </div>
       </div>
