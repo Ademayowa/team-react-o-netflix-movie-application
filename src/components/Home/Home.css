@@ -98,3 +98,40 @@
   font-size: 16px;
   font-weight: 600;
 }
+
+@media only screen and (max-width: 780px){
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .email{
+    margin: 20px 0;
+    width: 99%;
+  }
+  .hero-title h1 {
+    color: #ffff;
+    font-size: 52px;
+    width: 335px;
+    text-align: center;
+    margin: 16px 0;
+  }
+  
+  .hero-title h2 {
+    color: #ffff;
+    width: 335px;
+    height: 60px;
+    font-size: 18px;
+    margin: 16px 0;
+  }
+  
+  .hero-title h3 {
+    color: #ffff;
+    width: 335px;
+    height: 62px;
+    font-size: 22px;
+    margin: 16px 0;
+  }
+  
+}
