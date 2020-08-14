@@ -115,6 +115,7 @@
     font-size: 52px;
     width: 335px;
     text-align: center;
+    font-weight: 600;
     margin: 16px 0;
   }
   
@@ -123,6 +124,7 @@
     width: 335px;
     height: 60px;
     font-size: 18px;
+    font-weight: 400;
     margin: 16px 0;
   }
   
@@ -130,7 +132,8 @@
     color: #ffff;
     width: 335px;
     height: 62px;
-    font-size: 22px;
+    font-size: 16px;
+    font-weight: 400;
     margin: 16px 0;
   }
   
